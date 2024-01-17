@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-group">
+                <div class="icon-wrapper">
+                    <div></div>
+                    <i class="fa fa-home icon" aria-hidden="true"></i>
+                </div>
+                <div class="icon-wrapper"><span>Hello</span>
+                    <i class="fa fa-phone icon" aria-hidden="true"></i>
+                </div>
+
+                <div class="icon-wrapper">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="menu-link">
+                <div class="menu-link-inner rotate">powered by webflow.com</div>
+            </div>
+
+            <div class="menu-group">
+                <div class="icon-wrapper">
+                    <i class="fa fa-facebook icon" aria-hidden="true"></i>
+                </div>
+
+                <div class="icon-wrapper">
+                    <i class="fa fa-twitter icon" aria-hidden="true"></i>
+                </div>
+
+                <div class="icon-wrapper">
+                    <i class="fa fa-instagram icon" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="horizontal-menu">
+                <div class="horizontal-menu-sub">
+                    <img src="logo.png" alt="logo">
+                </div>
+                <div class="horizontal-menu-sub flex-right">
+                    <div class="icon-horizontal-wrapper">
+                        <i class="fa fa-bars icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon-horizontal-wrapper">
+                        <i class="fa fa-shopping-cart icon" aria-hidden="true"></i>
+                    </div>
+                    <p class="phoneNumber">
+                        <span>
+                            Phone OrderX
+                        </span>
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="sidebar">
+            <h2 class="title" style="color:white">Reservation</h2>
+            <div class="request">
+                <form action="#" method="post">
+                    <input class="field" type="text" name="firstname" id="firstname" placeholder="firstname">
+                    <input class="field" type="text" name="lastname" id="lastname" placeholder="lastname">
+                    <input class="field" type="text" name="email" id="email" placeholder="email">
+                    <input class="field" type="text" name="phone" id="phone" placeholder="phone">
+                    <input class="field" type="text" name="guest" id="guest" placeholder="guest">
+
+                    <div class="timewrapper">
+                        <input class="half-field" type="date" name="date" id="date">
+                        <input class="half-field" type="time" name="time" id="time">
+                    </div>
+
+
+                    <br><input class="button" type="submit" value="Submit Request">
+
+                </form>
+            </div>
+
+            <div class="request" style="background-color:rgb(255, 255, 255)">
+                <h2 class="title" style="background-color:rgb(255, 255, 255);color:black">Latest Dishes</h2>
+                <div class="dish">
+                    DISH 1
+                </div>
+                <div class="dish">
+                    DISH 2
+                </div>
+                <div class="dish">
+                    DISH 3 et DISH
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
