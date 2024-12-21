@@ -1,0 +1,56 @@
+.horizontal-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    border-bottom: solid 1px rgb(209, 209, 209);
+    height: 60px;
+}
+
+.horizontal-menu-sub {
+    padding: 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+.icon-horizontal-wrapper {
+    background-color: var(--main-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px 5px;
+    ;
+    /* vertical  centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+p.phoneNumber {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.phoneNumber span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
